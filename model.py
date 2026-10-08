@@ -13,5 +13,3 @@ def load_model():
   model.aux_classifier[4] = torch.nn.Conv2d(256, 3, 1)
 
   return model
-
-
