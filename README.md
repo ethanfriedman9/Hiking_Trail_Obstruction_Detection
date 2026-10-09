@@ -6,9 +6,10 @@ This project uses deep learning to identify obstructions on hiking trails from i
 
 The goal is to train a segmentation model that can distinguish between:
 
-* **Other** — vegetation, grass, sky, and other non-trail/non-obstacle areas
+* **Vegetation** — vegetation, grass, and trees
 * **Trail** — the walkable hiking trail
 * **Obstacle** — objects or areas obstructing the trail
+* **Sky** — sky
 
 The model is trained using data from two different datasets.
 
